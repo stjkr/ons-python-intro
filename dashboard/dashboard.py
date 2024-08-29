@@ -4,8 +4,8 @@ import pandas as pd
 import plotly.express as px
 
 # Fetch data from the Flask API
-response = requests.get("http://127.0.0.1:5000/data")
-data = response.json()
+data = {    "Month": ["January", "February", "March", "April", "May", "June"],
+    "Sales": [150, 200, 250, 300, 350, 290]}
 
 # Convert the data to a DataFrame
 df = pd.DataFrame(data)

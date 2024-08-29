@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # Sample data (you can replace this with a more complex dataset)
 data = {
-    "Month": ["January", "February", "March", "April", "May"],
-    "Sales": [150, 200, 250, 300, 350]
+    "Month": ["January", "February", "March", "April", "May", "June"],
+    "Sales": [150, 200, 250, 300, 350, 290]
 }
 
 @app.route('/data', methods=['GET'])
